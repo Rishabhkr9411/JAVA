@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Calculator
+class Calculator1
 
 {
     public static void main(String args[]) {
@@ -117,6 +117,36 @@ class Even {
         } else {
             System.out.println("Odd number ");
         }
+    }
+}
+
+class oddEven {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the number");
+        int n = sc.nextInt();
+        System.out.println(isOdd(n));
+    }
+
+    static boolean isOdd(int n) {
+        return (n & 1) == 1;
+        // if last digit of binary is 1 then it is an odd number
+        // any number AND operation with 1 is the same number
+    }
+}
+
+class findUnique {
+    public static void main(String[] args) {
+        int[] arr = { 2, 3, 1, 4, 6, 2, 3, 6, 1 };
+        System.out.println(ans(arr));
+    }
+
+    static int ans(int[] arr) {
+        int ans = 0;
+        for (int i = 0; i < arr.length; i++) {
+            ans = ans ^ arr[i];
+        }
+        return ans;
     }
 }
 
@@ -419,6 +449,41 @@ class patternKK7 {
     }
 }
 
+class patternkk31 {
+    public static void main(String[] args) {
+        // pattern31(4);
+        pattern32(3);
+
+    }
+
+    static void pattern31(int n) {
+        n = 2 * n;
+        for (int row = 0; row <= n; row++) {
+            for (int col = 0; col <= n; col++) {
+                int atEveryIndex = Math.min(Math.min(row, col), Math.min(n - row, n - col));
+                System.out.print(atEveryIndex + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    static void pattern32(int n) {
+        int N = (2 * n) - 1;
+        for (int row = 0; row <= N; row++) {
+            for (int col = 0; col <= N; col++) {
+                int atEveryIndex = Math.min(Math.min(row, col), Math.min(N - row, N - col));
+                // if (atEveryIndex != 0) {
+                System.out.print(atEveryIndex + " ");
+                // } else {
+                // break;
+                // }
+
+            }
+            System.out.println();
+        }
+    }
+}
+
 class ArrayMultiply {
     public static void main(String args[]) throws Exception {
         int N, sum = 1;
@@ -503,6 +568,20 @@ class fruit {
                 System.out.println("enter valid fruit");
 
         }
+    }
+}
 
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int d = sc.nextInt();
+        int sum1 = (a * b) + (c * d);
+        System.out.println(sum1);
     }
 }

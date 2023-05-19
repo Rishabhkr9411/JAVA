@@ -32,5 +32,30 @@ public class leetcode {
             return ans;
         }
     }
+}
 
+class jump {
+    public static void main(String[] args) {
+        int[] arr = { 2, 3, 1, 1, 4 };
+        boolean ans = canJump(arr);
+
+        System.out.println(ans);
+
+    }
+
+    static boolean canJump(int[] nums) {
+        int i = 0;
+        if (nums[0] >= nums.length) {
+            return true;
+        }
+        while (i < nums.length) {
+            int maxsum = nums[i] + nums[nums[i]];
+            if (maxsum < nums.length) {
+                i = nums[i];
+            } else if (maxsum >= nums.length) {
+                return true;
+            }
+        }
+        return false;
+    }
 }

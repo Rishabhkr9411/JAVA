@@ -1,3 +1,5 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "gitlens.hovers.avatars": true,
+    "gitlens.hovers.enabled": true
 }

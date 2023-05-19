@@ -8,7 +8,7 @@ class arrays {
         // datatype[] variable_name =new datatype[size]
         // int[] rnos = new int[5];
         // or directly
-        // int[] rnos2 = { 12, 23, 23};
+        int[] rnos2 = { 12, 23, 23 };
         Scanner in = new Scanner(System.in);
         int[] arr = new int[8];
         for (int i = 0; i < 8; i++) {

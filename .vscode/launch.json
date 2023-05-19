@@ -5,6 +5,286 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "patternkk31",
+            "request": "launch",
+            "mainClass": "patternkk31",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "pattern",
+            "request": "launch",
+            "mainClass": "pattern",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "leetcodeQuestion",
+            "request": "launch",
+            "mainClass": "leetcodeQuestion",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "trianglePatt",
+            "request": "launch",
+            "mainClass": "trianglePatt",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "RBS",
+            "request": "launch",
+            "mainClass": "RBS",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "lSearch",
+            "request": "launch",
+            "mainClass": "lSearch",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "linearSearch",
+            "request": "launch",
+            "mainClass": "linearSearch",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "search",
+            "request": "launch",
+            "mainClass": "search",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "sorted",
+            "request": "launch",
+            "mainClass": "sorted",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "countZeroes",
+            "request": "launch",
+            "mainClass": "countZeroes",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "reverseAno",
+            "request": "launch",
+            "mainClass": "reverseAno",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "sumofDigits",
+            "request": "launch",
+            "mainClass": "sumofDigits",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "sum37",
+            "request": "launch",
+            "mainClass": "sum37",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "sum",
+            "request": "launch",
+            "mainClass": "sum",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "fact",
+            "request": "launch",
+            "mainClass": "fact",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "Nto1",
+            "request": "launch",
+            "mainClass": "Nto1",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "mergesort",
+            "request": "launch",
+            "mainClass": "mergesort",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "rangeXor",
+            "request": "launch",
+            "mainClass": "rangeXor",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "setbits",
+            "request": "launch",
+            "mainClass": "setbits",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "powerOfTwo",
+            "request": "launch",
+            "mainClass": "powerOfTwo",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "PascalsTriangle",
+            "request": "launch",
+            "mainClass": "PascalsTriangle",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "NumofDigit",
+            "request": "launch",
+            "mainClass": "NumofDigit",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "MagicNumber",
+            "request": "launch",
+            "mainClass": "MagicNumber",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "findUnique",
+            "request": "launch",
+            "mainClass": "findUnique",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "oddEven",
+            "request": "launch",
+            "mainClass": "oddEven",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "Launch questions",
+            "request": "launch",
+            "mainClass": "questions",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "Launch fibo",
+            "request": "launch",
+            "mainClass": "fibo",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursion",
+            "request": "launch",
+            "mainClass": "recursion",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "Launch shuffle",
+            "request": "launch",
+            "mainClass": "shuffle",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "Launch palindrom",
+            "request": "launch",
+            "mainClass": "palindrom",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "Launch preetyPrinting",
+            "request": "launch",
+            "mainClass": "preetyPrinting",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "Launch merge",
+            "request": "launch",
+            "mainClass": "merge",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "Launch jump",
+            "request": "launch",
+            "mainClass": "jump",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculator1",
+            "request": "launch",
+            "mainClass": "Calculator1",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "Launch String",
+            "request": "launch",
+            "mainClass": "String",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "Launch CyclicSort",
+            "request": "launch",
+            "mainClass": "CyclicSort",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "type": "java",
+            "name": "Launch mergeSort",
+            "request": "launch",
+            "mainClass": "mergeSort",
+            "projectName": "JAVA_756e2943"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
+            "mainClass": "InsertionSort",
+            "projectName": "JAVA_756e2943"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
